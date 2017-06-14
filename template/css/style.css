@@ -1,0 +1,25 @@
+html,body{ background-color:#C9CCCD; color:#000000; height:100%; font:normal 14px/20px arial}
+
+.clear { clear:both }
+
+.comments-all { font-size:12px; background-color:#E4E6E6; margin-top: 0; margin-bottom:5px; padding:10px 20px; height:20px }
+.add-comment { border-bottom:1px dashed #000; cursor:pointer; float:right }
+.comment-title { font-size:12px; background-color:#EAEBEB; margin-top:5px; padding:5px 20px;height:20px }
+.comment-message { font-size:12px; background-color:#F1F2F2; padding:5px 20px }
+
+.comment { padding:40px 50px }
+.editor { display:none; margin-top:1px; padding-top:5px; padding-left:20px; background-color:#F3F5F5 }
+.comment-ans { float:right; border-bottom:1px dashed #444; cursor:pointer }
+
+.pagination li {
+  display:inline-block;
+  padding:5px;
+}
+
+#editor_panel { width:97.5%; height:20px; background-color:red; }
+#editor_button { width: 10px; }
+
+#uname { font-size:14px; padding:5px; margin:10px 10px 10px 0 } 
+#textinput { font-size:14px; padding:5px; margin:10px 10px 10px 0; resize: none; height: 90px; margin-top: 0; }
+#captcha { font-size:14px; padding:5px; margin-right: 10px; }
+#submit { padding:10px; margin: -5px 0 15px 0; font-weight:bold }
